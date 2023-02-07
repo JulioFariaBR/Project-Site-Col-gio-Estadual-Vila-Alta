@@ -1,0 +1,158 @@
+
+
+.bemvindo--textopricipal {
+    text-align: center;
+    margin: 70px;
+    font-size: 70px;
+    font-weight: normal;
+    margin-top: 30px;
+}
+
+.home {
+    background-image: url(../img/icones/home.svg);
+}
+
+.svg {
+    width: 50px;
+    height: 50px;
+    margin: 10px auto;
+}
+
+.mapa {
+    background-image: url(../img/icones/mapa.svg);
+}
+
+.grupo {
+    background-image: url(../img/icones/grupo.svg);
+}
+
+.localizacao {
+    margin: 0 10%;
+}
+
+.localizacao--titulo, .titulo--equipe, .redes--titulo {
+    text-align: center;
+    margin: 20px;
+    font-size: 50px;
+    font-weight: normal;
+}
+
+.localizacao--texto, .textoprincipal--equipe, .redes--texto {
+    text-align: center;
+    margin: 10px;
+    font-size: 20px;
+    font-weight: normal;
+}
+
+.localizacao--mapa {
+    display: flex;
+    align-items: center;
+}
+
+.localizacao--mapa__conteudo {
+    text-align: center;
+    width: 80vw;
+    height: 30vw;
+}
+
+
+
+.pessoas {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.fotolegenda--equipe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px 50px;    
+}
+
+.foto--equipe {
+    width: 200px;
+}
+
+.nome--equipe {
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px;
+}
+
+/*.redes
+.redes--botao
+.redes--img*/
+
+.redes {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: row;
+}
+.redes--img {
+    width: 20%;
+}
+
+.redes--lista {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+
+
+}
+
+
+.cargo--equipe {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+@media(max-width: 768px) {
+    
+    .bemvindo--textopricipal {
+        font-size: 40px;
+    }
+
+    
+    .redes {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        flex-direction: column;
+    }
+
+    
+    .redes--item {
+        padding-left: 20%;
+    }
+
+    .redes--img {
+        width: 50%;
+    }
+
+}
+
+
+@media(max-width: 871px) {
+    
+    .pessoas {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .cargo--equipe:nth-child(3) {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .redes--img {
+        width: 30%;
+    }
+
+
+}
